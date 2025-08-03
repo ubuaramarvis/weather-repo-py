@@ -5,6 +5,7 @@ from datetime import datetime
 
 API_KEY = "8c630741ff0563b7632f0e593f87e654" 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
+print("\n my final project for python class 2025.")
 
 def get_weather(city, unit='metric'):
     url = f"{BASE_URL}q={city}&appid={API_KEY}&units={unit}"
